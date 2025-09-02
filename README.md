@@ -219,8 +219,6 @@ _Above: A sample view of the final dashboard showing KPIs, outlet-level charts, 
 
 ![Blinkit Grocery Dashboard](BlinkIT%20Grocery%20Data.png)
 
----
-
 ### 🗂️ Project Preview Snapshot
 
 ![Blinkit Grocery Project Preview](BlinkIT%20Grocery%20Data1.png) 
