@@ -2,19 +2,41 @@
 
 ---
 
-## 🧩 Project Overview
+## 📑 Table of Contents
+
+- <a href="#project-overview">📌 Project Overview</a>  
+- <a href="#Project-context">🏢 Project Context</a>  
+- <a href="#project-objectives">🎯 Project Objectives</a>  
+- <a href="#target-audience">🔍 Target Audience</a>  
+- <a href="#business-problems-addressed">🛑 Business Problems Addressed</a>  
+- <a href="#key-features-&-visual-insights">💡 Key Features & Visual Insights</a>  
+- <a href="#data-sources-&-description">📊 Data Sources & Description</a>  
+- <a href="#project-lifecycle-&-technical-workflow">🔄 Project Lifecycle & Technical Workflow</a>  
+- <a href="#data-modeling-approach">⚙️ Data Modeling Approach</a>  
+- <a href="#dax-measures-implemented">🧮 DAX Measures Implemented</a>  
+- <a href="#key-business-takeaways">📈 Key Business Takeaways</a>  
+- <a href="#tools-&-technologies">📚 Tools & Technologies Used</a>  
+- <a href="#conclusion">🔚 Conclusion</a>  
+- <a href="#future-scope">🚀 Future Scope </a>  
+- <a href="#how-to-use-this-project">📦 How to Use This Project</a>  
+- <a href="#contact">📬 Connect with Me</a>  
+- <a href="#dashboard-snapshot">🖼️ Dashboard Snapshot</a> 
+
+---
+
+## <span id="project-overview">🧩 Project Overview</span>  
 
 This Power BI dashboard provides an in-depth analysis of BlinkIT’s grocery operations, highlighting trends in sales, customer ratings, and inventory performance across various outlet types, item categories, and geographic locations. The dashboard features dynamic KPI cards, DAX-driven metrics, and multiple chart types designed to uncover critical business patterns. It demonstrates how data visualization can convert raw operational data into actionable insights—supporting strategic expansion, customer satisfaction improvement, and performance optimization.
 
 ---
 
-## 🏢 Project Context
+## <span id="project-context">🏢 Project Context</span>  
 
 BlinkIT operates in a highly competitive grocery retail space, where understanding what sells, where it sells, and how customers respond is critical. However, the business lacked a centralized analytics solution to monitor these metrics in real-time. This Power BI project addresses the need for clarity in product performance, outlet analysis, and customer preferences by turning large-scale operational data into a user-friendly, interactive dashboard tailored for various stakeholders including marketing, operations, and analytics teams.
 
 ---
 
-## 🎯 Project Objectives
+## <span id="project-objectives">🎯 Project Objectives</span>  
 
 The main objective is to build a centralized business intelligence solution using Power BI to help stakeholders:
 
@@ -26,7 +48,7 @@ The main objective is to build a centralized business intelligence solution usin
 
 ---
 
-## 🔍 Target Audience
+## <span id="target-audience">🔍 Target Audience</span> 
 
 - **Operations Managers** to monitor outlet efficiency and inventory flow.
 - **Marketing Teams** to design campaigns targeting high-performing SKUs.
@@ -35,7 +57,7 @@ The main objective is to build a centralized business intelligence solution usin
 
 ---
 
-## 🛑 Business Problems Addressed
+## <span id="business-prolblems-addressed">🛑 Business Problems Addressed</span> 
 
 - ❌ No consolidated view of KPIs such as average sales or customer ratings.
 - ❌ Lack of insight into how fat content affected item performance.
@@ -45,7 +67,7 @@ The main objective is to build a centralized business intelligence solution usin
 
 ---
 
-## 💡 Key Features & Visual Insights
+## <span id="key-features-&-visual-insights">💡 Key Features & Visual Insights</span> 
 
 ### 1. KPI Cards
 
@@ -83,7 +105,7 @@ Tier 2 outlets dominate sales; Tier 1 shows untapped potential.
 
 ---
 
-## 📊 Data Sources & Description
+## <span id="data-sources-&-description">📊 Data Sources & Description</span> 
 
 - **Sales Dataset** – Detailed transactions including item type, fat content, outlet size, sales value, ratings, and visibility.  
 - **Outlet Dataset** – Information on outlet location, type, and establishment year.  
@@ -92,7 +114,7 @@ Tier 2 outlets dominate sales; Tier 1 shows untapped potential.
 
 ---
 
-## 🔄 Project Lifecycle & Technical Workflow
+## <span id="project-lifecycle-&-technical-workflow">🔄 Project Lifecycle & Technical Workflow</span> 
 
 - **Requirement Gathering** – Understanding business goals and pain points.
 - **Data Exploration** – Reviewing raw CSV files for sales and inventory.
@@ -107,7 +129,7 @@ Tier 2 outlets dominate sales; Tier 1 shows untapped potential.
 
 ---
 
-## ⚙️ Data Modeling Approach
+## <span id="data-modeling-approach">⚙️ Data Modeling Approach</span> 
 
 - **Schema** – Star Schema for optimized querying and relationships.  
 - **Fact Table** – Sales data containing transactional measures.  
@@ -116,7 +138,8 @@ Tier 2 outlets dominate sales; Tier 1 shows untapped potential.
 
 ---
 
-## 🧮 DAX Measures Implemented
+## <span id="dax-measures-implemented">🧮 DAX Measures Implemented</span> 
+
 
 - **Total Sales** = `SUM(Sales)`  
 - **Average Sales** = `DIVIDE(SUM(Sales), COUNTROWS(Sales))`  
@@ -126,7 +149,7 @@ Tier 2 outlets dominate sales; Tier 1 shows untapped potential.
 
 ---
 
-## 📈 Key Business Takeaways
+## <span id="key-business-takeaways">📈 Key Business Takeaways</span> 
 
 - ✅ **Balanced Fat Content Demand** – Maintain variety in nutrition profiles.
 - ✅ **Top Performers** – Dairy and snack items lead in revenue.
@@ -137,7 +160,7 @@ Tier 2 outlets dominate sales; Tier 1 shows untapped potential.
 
 ---
 
-## 📚 Tools & Technologies Used
+## <span id="tools-&-technologies-used">📚 Tools & Technologies Used</span> 
 
 - **Power BI Desktop** – Report creation and publishing  
 - **Power Query** – Data cleaning and transformation  
@@ -146,8 +169,8 @@ Tier 2 outlets dominate sales; Tier 1 shows untapped potential.
 - **Star Schema Modeling** – Relational structure
 
 ---
-
-## 🔚 Conclusion
+ 
+## <span id="conclusion">🔚 Conclusion</span>
 
 The BlinkIT Power BI dashboard transforms siloed operational data into a centralized decision-support system. It empowers stakeholders to:
 
@@ -158,7 +181,7 @@ The BlinkIT Power BI dashboard transforms siloed operational data into a central
 
 ---
 
-## 🚀 Future Scope
+## <span id="future-scope">🚀 Future Scope</span>
 
 - 🔮 Predictive analytics for sales forecasting  
 - 🧮 Shelf-life and stock turnover insights  
@@ -168,22 +191,27 @@ The BlinkIT Power BI dashboard transforms siloed operational data into a central
 
 ---
 
-## 📦 How to Use This Project
+## <span id="how-to-use-this-project">📦 How to Use This Project</span>
 
 1. **Download/Clone Repository**  
 2. Open `.pbix` file in **Power BI Desktop**  
 3. Connect your dataset or use sample data  
 4. Explore visuals and interact with filters
-5. 
----
-
-## 📜 License
-
-This project is open-source for educational and portfolio purposes. Credit the author when reusing.
 
 ---
 
-## 🖼️ Dashboard Snapshot
+## <span id="contact">📬 Connect with Me</span>  
+
+- 📧 **Email**: [rajeevtiwari8055@gmail.com](mailto:rajeevtiwari8055@gmail.com)  
+- 💻 **GitHub**: [github.com/rajeevgit8055hub](https://github.com/rajeevgit8055hub)  
+- 🔗 **LinkedIn**: [linkedin.com/in/rajeev-tiwari123](https://www.linkedin.com/in/rajeev-tiwari123)  
+- 🌐 **Website**: [rajeevgit8055hub.github.io/rajeevtiwari.github.io](https://rajeevgit8055hub.github.io/rajeevtiwari.github.io/)  
+
+🤝 *Thanks for visiting my profile!*  
+
+---
+
+## <span id="dashboard-snapshot">🖼️ Dashboard Snapshot</span>
 
 _Above: A sample view of the final dashboard showing KPIs, outlet-level charts, and product-level insights._
 
