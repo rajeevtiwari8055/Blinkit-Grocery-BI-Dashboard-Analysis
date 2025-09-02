@@ -57,7 +57,7 @@ The main objective is to build a centralized business intelligence solution usin
 
 ---
 
-## <span id="business-prolblems-addressed">🛑 Business Problems Addressed</span> 
+## <span id="business-problems-addressed">🛑 Business Problems Addressed</span>
 
 - ❌ No consolidated view of KPIs such as average sales or customer ratings.
 - ❌ Lack of insight into how fat content affected item performance.
@@ -160,7 +160,7 @@ Tier 2 outlets dominate sales; Tier 1 shows untapped potential.
 
 ---
 
-## <span id="tools-&-technologies-used">📚 Tools & Technologies Used</span> 
+## <span id="tools-&-technologies">📚 Tools & Technologies Used</span>
 
 - **Power BI Desktop** – Report creation and publishing  
 - **Power Query** – Data cleaning and transformation  
